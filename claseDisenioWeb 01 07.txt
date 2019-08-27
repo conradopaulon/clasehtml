@@ -1,0 +1,45 @@
+coderpad.io/WAERD699
+
+bootstrap 
+
+es una tecno creada por twitter pa aplic estilos css,
+ con una elaboracion que adapta el contenido de twitter
+ a cualquier dsposit eletronic 
+
+FUE LIBERADA PARA cc0 Y PODEMOS APLIC EN NUESTROS SITIOS
+ WEB, TIENE CIENTOS DE ELEMENTOS COMUNES QUE PODEMOS 
+UTILIZAR, botones, ventanas de alerta , listas, titulos,
+ etc
+
+Para utilizarlo solo tenemos que importar el archivo 
+bootstrap y luego definir que nuestras etiquetas html 
+ tienen alguna clase bootstrap para aplic
+
+Por ejemplo para crear un boton "guard" deberiamos 
+escribir el siguiente codigo
+
+<input type="submit" value="Guardar" class="btn btn- default" />
+
+2 alternativas a la hora de importar 
+
+podemos import de una ubic local, de de nuetra web, 
+
+<link href='/css/bootstrap.css' rel='stylesheet'>
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+
+Markdown(
+
+#IMPORTAMTE
+
+## MENOS IMPORTANTE
+
+entorno de codigo 
+
+cms wordpress joomla drupal
+
+ide entorno de desarrollo de integrado
+(depurador conpilador motor de rendereo que vizualiza el proyecto

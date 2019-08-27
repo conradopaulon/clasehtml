@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">        
+            <title>Formulario</title>
+            <link href="bootstrap.css" rel="stylesheet">
+            <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+        <h1>Formulario de clientes</h1>
+            <a href="index.html">index</a>
+        <form action="http://www.almacenmacetasymacetas.com" method="get"><!--get(o post) que es?-->
+            <label>
+                Nombre:
+                <br>
+                <input class="form-control" type="text" name="txtnombre">
+
+            </label>
+            <br/>
+            <label>
+                Apellido:
+                <br>
+                <input class="form-control" type="text" name="txtapellido" ><!--placeholder para comentar el cuadro de rellenar-->
+            </label>
+            <br/>
+            <label > 
+                Argentino
+                <br>
+                <input type="checkbox" name="chkargentino">
+            </label>
+            <br>
+            <label>
+                Localidad:
+                <br>
+                <select class="form-control" name="cbolocalidad">
+                    <option value="Seleccionar">Seleccionar...</option>
+                    <option value="San Justo">San Justo</option>
+                    <option value="Gobernador Crespo">Gobernador Crespo</option>
+                    <option value="Videla">Videla</option>
+                    <option value="Marcelino Escalada">Marcelino Escalada</option>
+                </select>
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="radtipopersona" value="alumno" >alumno
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="radtipopersona" value="docente" >docente
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="radtipopersona" value="director" >directivo
+            </label>
+            <br>   
+            <label>
+                Observaciones: 
+                <br>
+                <textarea name="txaobservaciones" rows="4" cols="60">
+                    </textarea>
+            </label>
+            <br> 
+            <input class="btn-lg" type="submit" name="btnenviar"> <!-- value="enviar datos" esto es para cambiar el texto predeterminado del submit-->
+        </form>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,6 @@
+html
+	http= "hipertexto, protocolo de transferencia."
+		get(url
+		post
+		put/patch
+		delete

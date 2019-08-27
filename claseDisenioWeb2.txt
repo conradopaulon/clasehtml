@@ -1,0 +1,28 @@
+<!DOCTYPE html> determina la vesrsion de html que utiliza nuestra 
+pagina web. este en particuar usa html5
+
+<html lang="es"> marca e inicio de una pagina web. lang: es la 
+propiedad que define el idioma de nuestra pagina.
+
+<head> encabezado de la pagina web que contiene referencia a
+ archivos que utilizamos. permite definir el titulo de la pagina 
+determinar la painaion de codigos utilizada para almacenar nuestros
+ archivos.
+
+<meta charset="UTF-8"> determina la paginacion de codigos.
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge"> le da 
+compatibilidad con edge
+
+<title> titulo de la pagina
+aaraion: todas las etiquetas tienen una etiqueta de cierre que suma
+ una barra excepto las que no tienen contenido 
+por ejempo: <img src="/img/1558736823337.jpg" alt="Algunos de 
+nuestros productos" height="20"/>
+
+<h1><h2><h3><h4><h5><h6> Etiquetas que permiten crear titulos de 
+distinta relevancia
+
+Css = hojas de estilo en cascada
+
