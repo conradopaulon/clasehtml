@@ -1,0 +1,48 @@
+h1 {
+    text-align: center;
+}
+/*p {
+    text-align: center;
+}
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    color: chartreuse ;
+    font-family: inherit;
+    font-size: 20px;*/
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url(/img/fondo.jpg);
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+.historia{
+    color: brown
+}
+
+@media screen and (max-width: 768px) {
+  body {
+      background-image: url(/img/fondo-2.jpg);
+    }
+  }
+/*.fondo{
+    background-image: url(img/fondo.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: repeat-y;
+    display: none;
+}*/
+label {
+    text-decoration: underline;
+    text-decoration-color: aqua;
+}
+.tituloprincipal {
+    border: 3px double yellow;
+}
+#tituloindex {
+    background-color: chartreuse;
+    color: white
+}
